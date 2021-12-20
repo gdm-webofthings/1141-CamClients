@@ -1,6 +1,6 @@
 # Notice
 This project is from https://github.com/EbenKouao/pi-camera-stream-flask
-There are only a few styling edits 
+There are only small edits 
 
 # Make you own Raspberry Pi Camera Stream
 
