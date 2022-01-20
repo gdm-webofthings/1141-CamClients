@@ -59,25 +59,25 @@ Open up terminal and clone the Camera Stream repo:
 
 ```
 cd /home/pi
-git clone https://github.com/EbenKouao/pi-camera-stream-flask.git
+git clone https://github.com/gdm-webofthings/1141-CamClients
 ```
 
 ## Step 2 – Launch Web Stream
 
 Note: Creating an Autostart of the main.py script is recommended to keep the stream running on bootup.
 ```bash cd modules
-sudo python3 /home/pi/pi-camera-stream-flask/main.py
+sudo python3 /home/pi/1141-CamClients/main.py
 ```
 
 ## Step 3 – Autostart your Pi Stream
 
-Optional: A good idea is to make the the camera stream auto start at bootup of your pi. You will now not need to re-run the script every time you want to create the stream. You can do this by going editing the /etc/profile to:
+To make the the camera stream auto start at bootup of your pi you will now not need to re-run the script every time you want to create the stream. You can do this by going editing the /etc/profile to:
 
 ```
 sudo nano /etc/profile
 ```
 
-Go the end of the and add the following (from above):
+Go the end of the file and add the following (from above):
 
 ```
 sudo python3 /home/pi/pi-camera-stream-flask/main.py
