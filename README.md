@@ -1,5 +1,5 @@
 # Notice
-This project is from https://github.com/EbenKouao/pi-camera-stream-flask
+This project is from https://github.com/EbenKouao/pi-camera-stream-
 There are only small edits 
 
 # Make you own Raspberry Pi Camera Stream
@@ -76,7 +76,7 @@ Go the end of the file and add the following (from above):
 
 ```
 sleep 5
-sudo python3 /home/pi/pi-camera-stream-flask/main.py &
+sudo python3 /home/pi/1141-CamClients/main.py &
 ```
 
 This would cause the following terminal command to auto-start each time the Raspberry Pi boots up. This in effect creates a headless setup - which would be accessed via SSH. 
