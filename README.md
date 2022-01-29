@@ -75,7 +75,8 @@ sudo nano /etc/profile
 Go the end of the file and add the following (from above):
 
 ```
-sudo python3 /home/pi/pi-camera-stream-flask/main.py
+sleep 5
+sudo python3 /home/pi/pi-camera-stream-flask/main.py &
 ```
 
 This would cause the following terminal command to auto-start each time the Raspberry Pi boots up. This in effect creates a headless setup - which would be accessed via SSH. 
